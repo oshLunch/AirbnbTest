@@ -1,0 +1,145 @@
+* {
+  margin: 0 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 880px;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  color: white;
+}
+
+.nav__menu > div {
+  margin: 10px 8px;
+  font-weight: 540;
+}
+
+.search-form {
+  position: relative;
+  width: 340px;
+  height: 410px;
+  left: 8%;
+  top: 6%;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: rgb(165, 165, 165) 0px 0px 1px 1px;
+}
+
+table {
+  margin: 8% 6%;
+  position: absolute;
+}
+
+.table-title {
+  position: absolute;
+  margin: 8% 6%;
+  color: rgb(58, 58, 58);
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.table {
+  position: absolute;
+  margin-top: 30%;
+}
+
+.search-form button {
+  background-color: lightcoral;
+  color: white;
+  width: 60px;
+  height: 40px;
+  list-style-type: none;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  left: 71%;
+  top: 80%;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.l-title {
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sec1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+.sec1-div {
+  display: flex;
+  width: 24.5%;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  border: silver solid 1px;
+  border-radius: 2px;
+}
+
+.sec3 {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-title {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.home-box {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.xs-title {
+  font-size: 8px;
+  color: silver;
+  font-weight: 500;
+}
+
+.m-title {
+  font-size: 11px;
+  font-weight: 550;
+}
+
+.home-item > div span {
+  font-size: 11px;
+  font-weight: 550;
+}
+
+.star {
+  font-size: 10px;
+  font-weight: 550;
+  color: rgb(18, 131, 175);
+}
